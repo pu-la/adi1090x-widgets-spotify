@@ -57,6 +57,6 @@ $ git clone --depth=1 https://github.com/adi1090x/widgets.git
 - [Spotifyd](https://github.com/Spotifyd/spotifyd) - A Spotify Daemon used to listen to music from Spotify.
 ### Todo
 
-- [] Change the music info scripts to use spt
-- [] Change Arin to use spt
-- [] Change teh Dashboard to use spt
+- [ ] Change the music info scripts to use spt
+- [ ] Change Arin to use spt
+- [ ] Change teh Dashboard to use spt
