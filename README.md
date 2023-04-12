@@ -1,15 +1,15 @@
 <!-- EWW Widgets -->
+This is a for of <a href="https://github.com/adi1090x/">Aditya Shakya</a>'s EWW config named <a href="https://github.com/adi1090x/widgets">widgets</a>. I do not plan on ever submitting a pull request, in respect of the original creator's wishes.
+
+# Warning
+
+Still in development. Does not currently work.
 
 # Widgets
 
-<p align="left">
-  <img src="https://img.shields.io/github/license/adi1090x/widgets?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/adi1090x/widgets?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/adi1090x/widgets?color=violet&style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/adi1090x/widgets?color=teal&style=for-the-badge">
-</p>
 
 <p align="left">Few widgets for <a href="https://github.com/elkowar/eww">EWW</a>, Elkowar’s Wacky Widgets.</p>
+
 
 ---
 
@@ -28,6 +28,7 @@
 ### Installation
 
 - Install Elkowar’s Wacky Widgets - [Instructions](https://elkowar.github.io/eww)
+- Install spotifyd - [Instructions](https://docs.spotifyd.rs/)
 - Clone this repository
 ```
 $ git clone --depth=1 https://github.com/adi1090x/widgets.git
@@ -46,6 +47,16 @@ $ git clone --depth=1 https://github.com/adi1090x/widgets.git
 
 ### FYI
 
-- Don't use my black picture for your profile. 
-- Music widget is for mpd/mpc, I don't use spotify, I don't care.
-- Made for 1920x1080 displays only.
+- Don't use <a href="https://github.com/adi1090x/">the original creator's</a> black picture for your profile. 
+- (Currently) Made for 1920x1080 displays only.
+
+### Credit
+
+- [The upstream repo](https://github.com/adi1090x/widgets) - Absolutely great work by <a href="https://github.com/adi1090x/">Aditya Shakya</a>. Licensed under GPL v3.
+- [Spotify TUI](https://github.com/Rigellute/spotify-tui) - The interface for Spotifyd
+- [Spotifyd](https://github.com/Spotifyd/spotifyd) - A Spotify Daemon used to listen to music from Spotify.
+### Todo
+
+- [] Change the music info scripts to use spt
+- [] Change Arin to use spt
+- [] Change teh Dashboard to use spt
