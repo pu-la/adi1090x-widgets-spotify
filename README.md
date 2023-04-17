@@ -3,7 +3,7 @@ This is a for of <a href="https://github.com/adi1090x/">Aditya Shakya</a>'s EWW 
 
 # Warning
 
-Still in development. Does not currently work.
+I'm using spt to interface with Spotify. As it uses the spotify API, I do not recommend increasing the update frequency.
 
 # Widgets
 
@@ -28,7 +28,8 @@ Still in development. Does not currently work.
 ### Installation
 
 - Install Elkowar’s Wacky Widgets - [Instructions](https://elkowar.github.io/eww)
-- Install spotifyd - [Instructions](https://docs.spotifyd.rs/)
+- Install spotifyd - [Instructions](https://docs.spotifyd.rs/) - Available on Pacman
+- Install spt - [Instructions](https://github.com/Rigellute/spotify-tui#installation) - Available on AUR
 - Clone this repository
 ```
 $ git clone --depth=1 https://github.com/adi1090x/widgets.git
@@ -52,11 +53,14 @@ $ git clone --depth=1 https://github.com/adi1090x/widgets.git
 
 ### Credit
 
-- [The upstream repo](https://github.com/adi1090x/widgets) - Absolutely great work by <a href="https://github.com/adi1090x/">Aditya Shakya</a>. Licensed under GPL v3.
+- [The upstream repo](https://github.com/adi1090x/widgets) - Absolutely great work by <a href="https://github.com/adi1090x/">Aditya Shakya</a>.
 - [Spotify TUI](https://github.com/Rigellute/spotify-tui) - The interface for Spotifyd
 - [Spotifyd](https://github.com/Spotifyd/spotifyd) - A Spotify Daemon used to listen to music from Spotify.
 ### Todo
 
-- [ ] Change the music info scripts to use spt
-- [ ] Change Arin to use spt
-- [ ] Change teh Dashboard to use spt
+- [x] Change the music info scripts to use spt
+- [x] Change Arin to use spt
+- [x] Change the Dashboard to use spt
+- [x] Original repo music widget functionality parity
+- [ ] Add support for 2560 x 1080 Displays (My resolution)
+- [ ] Add a sptlrx module. Toggleable? (Spotify lyrics)
