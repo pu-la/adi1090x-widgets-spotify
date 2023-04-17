@@ -29,13 +29,13 @@
 (defpoll UPMIN :interval "5s" `uptime -p | awk '{print $4 \" \" $5}'`)
 
 ;; Music vars
-(defpoll SONG :interval "1s" `scripts/music_info --song`)
-(defpoll ARTIST :interval "1s" `scripts/music_info --artist`)
-(defpoll STATUS :interval "1s" `scripts/music_info --status`)
-(defpoll CURRENT :interval "1s" `scripts/music_info --time`)
-(defpoll COVER :interval "1s" `scripts/music_info --cover`)
-(defpoll CTIME :interval "1s" `scripts/music_info --ctime`)
-(defpoll TTIME :interval "1s" `scripts/music_info --ttime`)
+(defpoll SONG :interval "10s" `scripts/music_info --song`)
+(defpoll ARTIST :interval "10s" `scripts/music_info --artist`)
+(defpoll STATUS :interval "10s" `scripts/music_info --status`)
+(defpoll CURRENT :interval "2s" `scripts/music_info --time`)
+(defpoll COVER :interval "10s" `scripts/music_info --cover`)
+(defpoll CTIME :interval "10s" `scripts/music_info --ctime`)
+(defpoll TTIME :interval "10s" `scripts/music_info --ttime`)
 
 ;; Weather vars
 (defpoll ICON :interval "15m" `scripts/weather_info --icon`)
@@ -115,7 +115,7 @@
 				(button :class "btn_play" :onclick "scripts/music_info --toggle" STATUS)
 				(button :class "btn_next" :onclick "scripts/music_info --next" "怜"))
 			(box :class "music_bar" :halign "center" :vexpand "false" :hexpand "false" 
-				(scale :onscroll "mpc -q seek +1" :min 0 :active "true" :max 100 :value CURRENT)))))
+				(scale :onscroll "spt pb --seek 1" :min 0 :active "true" :max 100 :value CURRENT)))))
 
 ;; github
 (defwidget github [] 
